@@ -1,10 +1,10 @@
-<h1> CREATE NEW USER </h1>
-<%= form_for User.new, url: {action: "create"} do |f| %>
+<h1> EDIT PROFILE </h1>
+<%= form_for @user, url: {action: "update"} do |f| %>
     <%= label_tag 'Username' %>
     <%= f.text_field :username %>
     <%= label_tag 'Password' %>
     <%= f.password_field :password %>
     <%= label_tag 'E-mail' %>
     <%= f.text_field :email %>
-    <%= f.submit "Create" %>
+    <%= f.submit "Save" %>
 <% end %>
