@@ -1,1 +1,11 @@
-<h1> USERS PAGE </h1>
+<h1> USER PAGE </h1>
+<form action="/users" method="post" accept-charset="utf-8">
+  <label for="username">First username:</label>
+  <input type="text" id="username" name="username"><br><br>
+  <label for="password">password:</label>
+  <input type="password" id="password" name="password"><br><br>
+  <label for="email">email:</label>
+  <input type="text" id="email" name="email"><br><br>
+  <input type="submit" value="Submit">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+</form>
