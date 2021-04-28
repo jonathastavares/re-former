@@ -1,8 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Active Record Database Model
+# re-former project
 
-> This is a database model for a Post system,
+> This is a project for building forms using Rails.
+> In this project, I created a simple database for Users, where the data will be stored for learning purposes.
+> This project helps me to understand better how parameters works in Rails.
 
 ![screenshot](/screenshot.jpg)
 
@@ -10,6 +12,7 @@
 
 - Ruby
 - Ruby on Rails
+- PostgreSQL
 
 # How to use
 
