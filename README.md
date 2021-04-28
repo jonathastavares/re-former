@@ -26,6 +26,8 @@
 
 - Visit http://127.0.0.1:3000 to check if it's working.
 
+- Note that if you try to create an user that already exists, it will redirect you to the edit profile page.
+
 # Author
 
 👤 **Jonathas Tavares**
