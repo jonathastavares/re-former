@@ -13,12 +13,12 @@ class UsersController < ApplicationController
   end
 
   def edit
-    @user = User.find_by(username: params[:username])
+    @user = User.find_by(username: params[:user][:username])
   end
 
   def update
     @user = User.find(params[:id])
-    redirect_to edit_user_path(@user.id) if @user.update(user_params)
+    redirect_to root_path if @user.update(user_params)
   end
 
   private
